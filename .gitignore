@@ -1,34 +1,38 @@
+# Visual Studio / Windows native development
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+x64/
+x86/
+Debug/
+Release/
+
 # Prerequisites
 *.d
 
-# Compiled Object files
+# Compiled object files
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
+# Precompiled headers
 *.gch
 *.pch
 
-# Linker files
+# Linker / debugger files
 *.ilk
-
-# Debugger Files
 *.pdb
 
-# Compiled Dynamic libraries
+# Compiled dynamic libraries
 *.so
 *.dylib
 *.dll
 *.so.*
 
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
+# Compiled static libraries
 *.lai
 *.la
 *.a
@@ -43,27 +47,37 @@
 build/
 Build/
 build-*/
+out/
+cmake-build-*/
 
 # CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+CTestTestfile.cmake
 Makefile
 install_manifest.txt
 compile_commands.json
 
-# Temporary files
+# Temporary / diagnostic files
 *.tmp
 *.log
 *.bak
 *.swp
+logs/
 
-# vcpkg
+# Local generated score/session artifacts
+*.timeline.json
+*.corrections.json
+*.marks.json
+
+# Package/build caches
 vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
 Testing/
 .cache/
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
